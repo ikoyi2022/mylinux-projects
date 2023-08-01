@@ -33,8 +33,8 @@ end
 The documentation on the process to follow is in the confluence page. follow that and install a jenkins server for the devops team.
 The deliverable will be the url of jenkins server, the username and password to access jenkins.
 Confluence url: https://dataservicegroup.atlassian.net/l/cp/QLkWo2r2
-username: unixtteam24@gmail.com
-password: school123
+username: ************
+password: ********
 2- Every month in your company, we need to patch the linux servers. To do that, we need to check some services status on the server depending on which application is running. This is to make sure that after patch and reboot, those services are in the same state. And in some cases, you need to shutdown some services running and bring them back after a gracefull reboot. Use below steps to patch your system as an example.
 a- check if jenkins service is runing and stop it.
 #systemctl status jenkins
